@@ -2,7 +2,6 @@
 
 ## Table of Contents
 1. [Introduction to PostgreSQL](#introduction-to-postgresql)
-2. [Installation](#installation)
 3. [Basic Commands](#basic-commands)
 4. [Creating Databases and Tables](#creating-databases-and-tables)
 5. [CRUD Operations](#crud-operations)
@@ -21,24 +20,6 @@ PostgreSQL (often called "Postgres") is a powerful, open-source object-relationa
 - Excellent performance
 - Scalability
 
-## Installation
-
-### On Linux (Ubuntu/Debian)
-```bash
-sudo apt update
-sudo apt install postgresql postgresql-contrib
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
-```
-
-### On macOS (using Homebrew)
-```bash
-brew install postgresql
-brew services start postgresql
-```
-
-### On Windows
-Download the installer from [postgresql.org/download](https://www.postgresql.org/download/) and run it.
 
 ## Basic Commands
 
